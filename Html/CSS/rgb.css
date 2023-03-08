@@ -29,6 +29,7 @@ body{
     box-shadow:  0 0 69px #0ef;
     border-radius: 20px;
     padding: 40px;
+    animation: animate 1s linear infinite;
 }
 .form-wrapper{
     display: flex;
@@ -52,7 +53,7 @@ h2{
 .input-group label{
     top:50%;
     left: 5px;
-    transform: translateY(-50%);
+ 
     font-size: 16px;
     color: #fff;
     pointer-events: none;
@@ -125,7 +126,7 @@ button{
     }
 }
 .wrapper:hover{
-    animation: animate 1s linear infinite;
+  
 }
 p{
     margin-top: 13px;

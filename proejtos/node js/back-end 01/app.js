@@ -1,18 +1,20 @@
-const express = require("express")
-const rotaLivro = require("./rotas/livros")
-const router = require("./rotas/livros")
+const express = require("express");
+const cors = require("cors");
+const rotaLivro = require("./rotas/livros");
+const rotafavoritos = require("./rotas/favoritos")
 
-const app = express()
+const app = express();
 
-app.use('/livros', rotaLivro)
+// Configurar o middleware cors
+app.use(cors());
 
-const port = 5000
-app.use(express.json())
+// Definir as rotas
+app.use("/livros", rotaLivro);
+app.use("/favoritos", rotafavoritos);
+
+const port = 5000;
+app.use(express.json());
 
 app.listen(port, () => {
-  console.log(`Escutando a porta ${port}`)
-})
-
-
-
-
+  console.log(`Escutando a porta ${port}`);
+});

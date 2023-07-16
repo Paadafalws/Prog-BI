@@ -16,3 +16,4 @@ const novoDado = { id:'34', nome: 'Livro mais que demai sadasdasdasdasdasdasdasd
 fs.writeFileSync("livros.json", JSON.stringify([...dadosAtuais, novoDado ]))
 
 console.log(JSON.parse(fs.readFileSync("livros.json")))
+

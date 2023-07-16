@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f8a40b7-8d09-47ca-8d55-f9a65f396e25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../flask/aplicaçao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flask/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flask/templates/novo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flask/templates/templates.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proojet/PRojeto.pbix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Proojet/Site OFIIC.pbit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Py/prog3/Python.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../Py/prog3/Python.db" afterDir="false" />
-    </list>
+    <list default="true" id="4f8a40b7-8d09-47ca-8d55-f9a65f396e25" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
